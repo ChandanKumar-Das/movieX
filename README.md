@@ -8,7 +8,7 @@ Checkout the Web App here - [Cinemate] (https://movie-x-one.vercel.app/)
 
 ```
 $ git clone
-$ cd Cinemate
+$ cd movieX
 $ npm install
 $ npm start
 ```
