@@ -1,0 +1,45 @@
+.footer-items {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(24, 23, 23);
+    color: white;
+    padding-bottom: 0.5rem;
+}
+
+.footer-items > h2 {
+    text-align: center;
+    color: grey;
+    font-weight: 800;
+}
+
+.footer-items > h3 {
+    text-align: center;
+    color: grey;
+    font-weight: 800;
+}
+
+.footer-resources, .social-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    grid-gap: 1.5rem;
+    margin-right: 30px;
+    list-style: none;
+    cursor: pointer;
+}
+.footer-resource-names {
+    color: aliceblue;
+    text-decoration: none;
+}
+.social-links-names {
+    font-size: 25px;
+    color: aliceblue;
+}
+
+.copyright {
+    text-align: center;
+}
+
+.copyright > span {
+    color: salmon;
+}

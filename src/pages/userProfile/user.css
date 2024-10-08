@@ -1,0 +1,149 @@
+:root {
+  --primary-background: rgba(246, 246, 243, 0.5);
+}
+
+.user-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin: 3.2rem;
+    padding: 0;
+}
+
+.tabs {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 1rem;
+    cursor: pointer;
+    border: 0.4px solid rgb(178, 180, 183);
+    border-radius: 4px;
+    margin: -3px 2px;
+}
+
+.tab-links {
+  text-decoration: none;
+  color: black;
+  padding: 5px;
+}
+
+.tab-links:active {
+  color: #c21717;
+  text-decoration: underline;
+}
+
+
+.user-infos {
+  box-shadow: 1px 2px 9px rgba(0,0,0,0.8);
+    background-color: var(--primary-background);
+    padding: 1rem;
+    width: 40rem;
+    margin: 1rem 1rem;
+    font-size: 17px;
+}
+
+.user-infos > div > .current-user-details {
+  margin: 40px;
+ 
+}
+
+.address-list {
+  padding: 0px;
+}
+
+.address-list > li{
+  list-style: none;
+  margin: 2px;
+  padding: 2px;
+}
+
+.address-list > li > span {
+  color: grey;
+}
+
+#name-details {
+  font-size: 30px;
+}
+
+.current-user-details > span {
+  color: grey;
+}
+
+.address-action-btns {
+  padding: 7px;
+  margin: 7px;
+  border: none;
+  background-color: #c21717;
+  color: white;
+  font-weight: bold;
+  border-radius: 4px;
+}
+
+.add-new {
+  background-color: rgb(65, 110, 112);
+  padding: 8px;
+}
+
+.form-btns {
+  width: 40%;
+  margin: auto;
+}
+
+.form-add {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin: -2rem;
+  padding: 2rem;
+}
+
+.form-add > input {
+  padding: 1rem;
+  border-radius: 5px;
+  border: 0.4px solid rgb(174, 169, 169);
+}
+
+textarea {
+  resize: none;
+  width: 28rem;
+}
+
+
+
+@media (max-width: 550px) {
+  .user-infos {
+    box-shadow: 1px 2px 9px rgba(0,0,0,0.8);
+      background-color: var(--primary-background);
+      padding: 3rem;
+      width: 12rem;
+      margin: 1rem 1rem;
+      font-size: 13px;
+  }
+
+  .user-infos > div > .current-user-details {
+    margin: 20px;
+   
+  }
+
+
+  .tab-links {
+    text-decoration: none;
+    color: black;
+    margin-left: 1px;
+    padding: 3px;
+  }
+
+  textarea {
+    resize: none;
+    width: 10rem;
+  }
+  
+
+  .add-new {
+    background-color: rgb(65, 110, 112);
+    margin-left: 1rem;
+    padding: 8px;
+  }
+}
+
